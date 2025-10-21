@@ -1,0 +1,73 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Output files
+output/*
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Dependency and package manager files
+pip-log.txt
+Pipfile.lock
+requirements.txt.lock
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebooks (if used for experimentation)
+*.ipynb_checkpoints/
+
+# Logs and caches
+*.log
+*.cache
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Sensitive or local configuration files
+*.env
+*.ini
+*.cfg
+*.secret
+
+# CUDA and OpenCV build artifacts (if rebuilding locally)
+*.o
+*.a
+*.cuo
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeCache.txt
+
+# Large dependency directories (if accidentally included)
+cuda*/
+lib*/
+include*/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
