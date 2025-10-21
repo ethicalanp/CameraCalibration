@@ -1,0 +1,2 @@
+When you use Dataset2.py file you'll generate labels of 35 total count this includes the extrensics too so truncate the last 6 extrensic parameters and make sure you're intrinsics are appended / present at the end of the label sequence
+
