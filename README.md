@@ -33,7 +33,7 @@ source venv/bin/activate
 
 Install dependencies:
 pip install opencv-contrib-python numpy
-
+pip install requirements.txt
 
 Verify CUDA (optional):
 
