@@ -1,0 +1,12 @@
+conda create -n charuco_env python=3.10 -y
+conda activate charuco_env
+
+
+pip install opencv-contrib-python numpy
+
+
+python -c "import cv2; print(cv2.__version__); print(hasattr(cv2.aruco, 'CharucoBoard_create'))"
+
+
+Make sure it prints version >= 4.7.0 and True.
+
