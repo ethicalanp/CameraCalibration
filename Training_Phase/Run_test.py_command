@@ -1,0 +1,7 @@
+python train.py   --batch 4   --img-size 512   --cfg models/yolov5s.yaml   --weights yolov5s.pt   --data data/Mouse.yaml   --workers 0
+
+
+GPU : Directory to run on this command :::
+
+
+
